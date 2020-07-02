@@ -9,26 +9,45 @@ header{
   background-color: blue;
 }
 
+.menu-inline{
+  list-style: none;
+}
+
+.menu-inline li{
+  display: inline-block;
+}
+
 .header-top{
   height:60px;
   background-color: red;
+  line-height: 60px;
 }
 
 .header-top-logo{
   float: left;
   width: 20%;
-  background-color: pink;
+
 }
 
 .header-top-nav-left{
   float: left;
   width: 40%;
-  background-color: yellow;
+  
 }
 
 .header-top-nav-right{
   float: left;
   width: 40%;
   background-color: green;
+
+}
+.header-top-nav-left li {
+  margin-left: 0 10px;
+}
+
+.header-top-nav-left li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 
 }
