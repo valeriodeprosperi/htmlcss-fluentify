@@ -13,3 +13,22 @@ header{
   height:60px;
   background-color: red;
 }
+
+.header-top-logo{
+  float: left;
+  width: 20%;
+  background-color: pink;
+}
+
+.header-top-nav-left{
+  float: left;
+  width: 40%;
+  background-color: yellow;
+}
+
+.header-top-nav-right{
+  float: left;
+  width: 40%;
+  background-color: green;
+
+}
