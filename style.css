@@ -12,6 +12,10 @@ header{
   width:80%;
   margin:auto;
 }
+#img{
+  height: 100px;
+  width:100px;
+}
 .menu-inline{
   list-style: none;
 }
@@ -40,6 +44,7 @@ header{
 .header-top-nav-left{
   float: left;
   width: 40%;
+  font-size: 10px;
 
 }
 
@@ -47,6 +52,8 @@ header{
   float: left;
   width: 40%;
   text-align: right;
+  font-size: 10px;
+
 
 
 }
@@ -76,4 +83,14 @@ header{
   color: white;
   text-align: left;
 
+}
+
+/* inizio main */
+
+
+
+.container-logo {
+  padding: 40px;
+  background-color: lightgrey;
+  text-align: center;
 }
