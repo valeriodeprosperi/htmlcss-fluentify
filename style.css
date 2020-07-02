@@ -8,21 +8,29 @@ header{
   height:400px;
   background-color: blue;
 }
-
+.container{
+  width:80%;
+  margin:auto;
+}
 .menu-inline{
   list-style: none;
 }
 
 .menu-inline li{
   display: inline-block;
+  margin-left: 20px;
 }
 
 .header-top{
   height:60px;
-  background-color: red;
   line-height: 60px;
 }
 
+.header-top::after{
+  content:"";
+  display: table;
+  clear: both;
+}
 .header-top-logo{
   float: left;
   width: 20%;
@@ -32,22 +40,39 @@ header{
 .header-top-nav-left{
   float: left;
   width: 40%;
-  
+
 }
 
 .header-top-nav-right{
   float: left;
   width: 40%;
-  background-color: green;
+  text-align: right;
+
 
 }
-.header-top-nav-left li {
+.header-top li {
   margin-left: 0 10px;
+
 }
 
-.header-top-nav-left li a{
+.header-top li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+
+}
+
+#boxlink{
+  border: 1px solid white;
+}
+#button-color{
+  background-color: green;
+}
+#button-color2{
+  background-color: green;
+
+}
+.banner h1{
+  color: white;
 
 }
