@@ -94,3 +94,35 @@ header{
   background-color: lightgrey;
   text-align: center;
 }
+
+main {
+  margin: 1% 0;
+}
+
+main::after{
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+main p {
+  line-height: 30px;
+}
+
+/* colonne */
+.col-left, .col-center, .col-right  {
+  float: left;
+}
+.col-left {
+  width: 20%;
+  margin-right: 5%;
+  padding: 8px;
+}
+.col-center {
+  width: 50%;
+}
+.col-right {
+  width: 20%;
+  margin-left: 5%;
+}
