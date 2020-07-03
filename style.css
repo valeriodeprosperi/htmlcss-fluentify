@@ -12,6 +12,11 @@ header{
   width:80%;
   margin:auto;
 }
+.clearfix::after{
+  content:"";
+  display: table;
+  clear: both;
+}
 #img{
   height: 100px;
   width:100px;
@@ -26,14 +31,12 @@ header{
 }
 
 .header-top{
-  height:60px;
-  line-height: 60px;
+  height:70px;
+  line-height: 70px;
 }
 
 .header-top::after{
-  content:"";
-  display: table;
-  clear: both;
+
 }
 .header-top-logo{
   float: left;
@@ -44,7 +47,7 @@ header{
 .header-top-nav-left{
   float: left;
   width: 40%;
-  font-size: 10px;
+  font-size: 8px;
 
 }
 
@@ -52,7 +55,7 @@ header{
   float: left;
   width: 40%;
   text-align: right;
-  font-size: 10px;
+  font-size: 8px;
 
 
 
@@ -69,25 +72,41 @@ header{
 
 }
 
-#boxlink{
+.btn{
+  border-radius: 5px;
+  color: white;
+  padding-left: 8px 10px;
+  background-color: transparent;
+}
+.btn-big{
+  padding:20px;
+}
+.btn-green{
+  background-color: green;
+}
+.btn-border-white{
   border: 1px solid white;
 }
-#button-color{
-  background-color: green;
-}
-#button-color2{
-  background-color: green;
 
+.banner{
+  height: 400px;
+  position:relative;
+}
+
+.banner-text{
+  position: absolute;
+  top: 50%;
+  left:0;
+  transform: translateY(-50%);
 }
 .banner h1{
   color: white;
   text-align: left;
+margin-bottom: 30px;
 
 }
 
 /* inizio main */
-
-
 
 .container-logo {
   padding: 40px;
@@ -95,34 +114,17 @@ header{
   text-align: center;
 }
 
-main {
-  margin: 1% 0;
+.info{
+  padding:40px 0;
+}
+.col-info{
+  float:left;
+  width: 33.33%;
+  height: 300px;
+  color: red;
+  text-align: center;
 }
 
-main::after{
-  content: "";
-  display: block;
-  clear: both;
-
-}
-
-main p {
-  line-height: 30px;
-}
-
-/* colonne */
-.col-left, .col-center, .col-right  {
-  float: left;
-}
-.col-left {
-  width: 20%;
-  margin-right: 5%;
-  padding: 8px;
-}
-.col-center {
-  width: 50%;
-}
-.col-right {
-  width: 20%;
-  margin-left: 5%;
+.col-info .info-img{
+  height:150px;
 }
